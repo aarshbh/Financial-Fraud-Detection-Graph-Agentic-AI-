@@ -1,0 +1,8 @@
+SEND  [2026-04-24T13:57:29] DataAnalyzerAgent → Orchestrator (result): GRAPH ANALYSIS SUMMARY
+=============================================
+Total nodes        : 500
+Known fraud nodes  : 40 (8
+SEND  [2026-04-24T17:51:01] DataAnalyzerAgent → Orchestrator (result): GRAPH ANALYSIS SUMMARY
+=============================================
+Total nodes        : 500
+Known fraud nodes  : 40 (8

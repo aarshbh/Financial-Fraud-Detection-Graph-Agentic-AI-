@@ -1,0 +1,7 @@
+Model,Accuracy,Precision,Recall,F1-Score
+Z-Score,0.9020,0.4384,0.8000,0.5664
+DBSCAN,0.5860,0.1619,1.0000,0.2787
+K-Means,0.8640,0.1500,0.1500,0.1500
+Isolation Forest,0.9400,0.6250,0.6250,0.6250
+Graph-Based,0.9160,0.4750,0.4750,0.4750
+Ensemble,0.9080,0.4516,0.7000,0.5490

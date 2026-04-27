@@ -1,0 +1,18 @@
+RECV  [2026-04-24T13:57:29] DataAnalyzerAgent → Orchestrator (result): GRAPH ANALYSIS SUMMARY
+=============================================
+Total nodes        : 500
+Known fraud nodes  : 40 (8
+RECV  [2026-04-24T13:57:29] AnomalyDetectionAgent → Orchestrator (data): {'report': 'TOP 15 SUSPICIOUS NODES (Ensemble + Graph Score)\n=======================================================\nR
+RECV  [2026-04-24T13:57:29] ExplanationAgent → Orchestrator (result): {'ACC_0340': 'Risk Level: LOW\nReasoning: This node was flagged because it exhibits all metrics are within normal ranges
+SEND  [2026-04-24T13:57:29] OrchestratorAgent → User (result): 
+╔═══════════════════════════════════════════════════════════════╗
+║   FRAUD DETECTION FINAL REPORT — AGENTIC AI SYSTEM 
+RECV  [2026-04-24T17:51:01] DataAnalyzerAgent → Orchestrator (result): GRAPH ANALYSIS SUMMARY
+=============================================
+Total nodes        : 500
+Known fraud nodes  : 40 (8
+RECV  [2026-04-24T17:51:01] AnomalyDetectionAgent → Orchestrator (data): {'report': 'TOP 15 SUSPICIOUS NODES (Ensemble + Graph Score)\n=======================================================\nR
+RECV  [2026-04-24T17:51:01] ExplanationAgent → Orchestrator (result): {'ACC_0340': 'Risk Level: LOW\nReasoning: This node was flagged because it exhibits all metrics are within normal ranges
+SEND  [2026-04-24T17:51:01] OrchestratorAgent → User (result): 
+╔═══════════════════════════════════════════════════════════════╗
+║   FRAUD DETECTION FINAL REPORT — AGENTIC AI SYSTEM 

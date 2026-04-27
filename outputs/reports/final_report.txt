@@ -1,0 +1,61 @@
+
+╔═══════════════════════════════════════════════════════════════╗
+║   FRAUD DETECTION FINAL REPORT — AGENTIC AI SYSTEM        ║
+╚═══════════════════════════════════════════════════════════════╝
+
+GRAPH ANALYSIS SUMMARY
+=============================================
+Total nodes        : 500
+Known fraud nodes  : 40 (8.0%)
+Avg degree         : 7.96
+Max degree         : 18
+Avg transaction amt: $10,794
+Density            : 0.0080
+=============================================
+
+TOP 15 SUSPICIOUS NODES (Ensemble + Graph Score)
+=======================================================
+Rank  AccountID    Score    Degree   PageRank   TrueLabel 
+-------------------------------------------------------
+1     ACC_0340     0.4307   15       0.002805   FRAUD     
+2     ACC_0071     0.4188   15       0.006889   NORMAL    
+3     ACC_0027     0.4066   11       0.004394   FRAUD     
+4     ACC_0217     0.3854   13       0.002933   FRAUD     
+5     ACC_0326     0.3666   14       0.007758   NORMAL    
+6     ACC_0034     0.3622   9        0.003243   FRAUD     
+7     ACC_0032     0.3554   9        0.003546   FRAUD     
+8     ACC_0253     0.3508   15       0.004398   NORMAL    
+9     ACC_0173     0.3504   12       0.002980   NORMAL    
+10    ACC_0229     0.3502   8        0.009154   NORMAL    
+11    ACC_0011     0.3442   8        0.009883   NORMAL    
+12    ACC_0189     0.3381   14       0.006033   NORMAL    
+13    ACC_0231     0.3364   13       0.006747   NORMAL    
+14    ACC_0149     0.3335   14       0.001450   FRAUD     
+15    ACC_0397     0.3314   12       0.002082   FRAUD     
+
+─────────────────────────────────────────────────────────────────
+EXPLANATION HIGHLIGHTS (Top Flagged Nodes)
+─────────────────────────────────────────────────────────────────
+
+  Account: ACC_0340
+  Risk Level: LOW
+  Reasoning: This node was flagged because it exhibits all metrics are within normal ranges. In financial fraud networks, these characteristics are strongly associated with money laundering or unauthorized transaction patterns.
+  Recommendation: Continue monitoring.
+
+  Account: ACC_0071
+  Risk Level: HIGH
+  Reasoning: This node was flagged because it exhibits high PageRank score (0.0069), indicating influence in the network. In financial fraud networks, these characteristics are strongly associated with money laundering or unauthorized transaction patterns.
+  Recommendation: Immediate investigation required.
+
+  Account: ACC_0027
+  Risk Level: LOW
+  Reasoning: This node was flagged because it exhibits all metrics are within normal ranges. In financial fraud networks, these characteristics are strongly associated with money laundering or unauthorized transaction patterns.
+  Recommendation: Continue monitoring.
+
+─────────────────────────────────────────────────────────────────
+SUMMARY
+  Total accounts analysed : 500
+  Flagged by system       : 62
+  Actual fraud accounts   : 40
+  True positives detected : 28 (70.0% recall)
+─────────────────────────────────────────────────────────────────
